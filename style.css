@@ -81,7 +81,8 @@ button:hover{
 
 .container-text{
     padding: 150px 0 0 130px;
-
+    margin-left: 55vh;
+    margin-top: -55vh;
 }
 
 .text h3{
@@ -94,13 +95,13 @@ button:hover{
     margin-top: 10px;
 }
 
-.text span{
+#nome{
     color: #2ecc71;
 }
 
 .text p{
     color: #fff;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 300;
     margin-top: 10px;
 }
@@ -113,4 +114,28 @@ button:hover{
 
 .btn{
     margin-top: 10px;
+}
+
+.main_photo{
+    display: flex;
+    flex-basis: 50%;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.main_photo img{
+    width: 350px;
+    height: 350px;
+    margin: 100px 0;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 250px;
+}
+
+img, text{
+    display: inline-block;
+}
+
+#mais {
+    display: none;
 }

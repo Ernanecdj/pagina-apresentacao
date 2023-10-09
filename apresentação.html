@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" media="all">
 </head>
 <body>
     
@@ -18,31 +18,43 @@
                 <li>
                     <a href="#">Home</a>
                 </li>
+
                 <li>
                     <a href="#">Sobre</a>
                 </li>
+    
                 <li>
-                    <a href="#">Serviços</a>
-                </li>
-                <li>
-                    <a href="#">Trabalho</a>
+                    <a href="#">Trabalhos</a>
                 </li>
                 <button>Meu contato</button>
             </div>
         </header>
+
+        <div class="main_photo">
+            <img src="photo.jpeg" alt="my_photo">
+        </div>
+        
         <div class="container-text">
             <div class="text">
                 <h3>Olá pessoal</h3>
-                <h1>Eu sou <span>Ernane Junior</span></h1>
-                <p>Sou um dev iniciante estudando e aprendendo o maximo que eu consigo!</p>
-                    <div class="redes-sociais">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                    <button class="btn">Sobre Mim</button>
+                <h1>Eu sou <span id="nome">Ernane Junior</span></h1>
+                <div class="redes-sociais">
+                    <a href="https://www.instagram.com/ernane_junior_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+                    <a href="https://www.linkedin.com/in/ernane-junior-12759826b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+
+                    <a href="https://github.com/Ernanecdj" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <p>Sou um dev iniciante estudando e aprendendo o maximo que eu consigo! <br> <span id="pontos">...</span> <span id="mais">
+                    Atualmente estou fazendo faculdade de Analise e Desenvolvimento de Sistemas pela UNESC em Cacoal-RO. <br>
+                    Tenho 19 anos e sempre fui apaixonado por tecnologia, musica, jogos livros e muito mais.
+                    Aos meus 18 anos comecei a me interessar pela área de programação e decidi me jogar de cabeça nos estudos começando o meu curso na UNESC e 
+                    estudando em casa o maximo que consigo com cursos auxiliares e pesquisando por minha conta.
+                    sou muito curioso, tenho facilidade e muito interesse em aprender coisas novas assim como me encontro extremamente interessado em aprender programação nesse ponto da minha vida.
+                    É isso que eu tenho para dizer e obrigado por ter lido até aqui.
+                </span></p>
+                    <button onclick="sobreMim()" class="btn">Sobre Mim</button>
+                    <script type="text/javascript" src="scripts.js"></script>
             </div>
         </div>
     </div>
